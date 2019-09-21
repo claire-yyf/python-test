@@ -1,12 +1,11 @@
 {
-    "execMap": {
-        "sh": "/bin/sh",
-        "py": "python3"
-    },
-    "watch": ["src/"],
-    "delay": "300",
-    "ext": "py",
-    "events": {
-        "crash": "nodemon run.sh"
-    }
+	"execMap": {
+		"sh": "/bin/sh",
+		"py": "python3"
+	},
+	"watch": [
+		"src/"
+	],
+	"delay": "300",
+	"ext": "py"
 }
